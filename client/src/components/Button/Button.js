@@ -9,12 +9,12 @@ const Button = props => {
     <button onClick={handleClick}>
       {props.text}
     </button>
-  )
-}
+  );
+};
 
 Button.PropTypes = {
   text: PropTypes.string,
   handleClick: PropTypes.function,
-}
+};
 
 export default Button;

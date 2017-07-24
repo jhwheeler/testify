@@ -9,11 +9,11 @@ const Header = props => {
     <h1>
       {props.text}
     </h1>
-  )
-}
+  );
+};
 
 Header.PropTypes = {
   text: PropTypes.string,
-}
+};
 
 export default Header;
