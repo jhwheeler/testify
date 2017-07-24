@@ -1,12 +1,13 @@
 import React from 'react';
 import { render } from 'react-dom';
 
+import App from './components/App/App';
 import css from './index.scss';
 
 const Root = () => {
   return (
     <div>
-      <h1>Test</h1>
+      <App />
     </div>
   )
 }
